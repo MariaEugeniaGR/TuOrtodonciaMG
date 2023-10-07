@@ -1,0 +1,322 @@
+.seccion-clara {
+    color: #1b1b32;
+    background-color: rgb(255, 255, 255);
+}
+
+.seccion-oscura {
+    color: white;
+    background-color:#1b1b32}
+
+/*Barra de Navegacion*/
+
+.navbar {
+    background-color: rgb(101, 154, 201);
+    padding: 0;
+} 
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-link {
+    color: rgb(255, 255, 255);
+ } 
+
+.navbar-brand {
+    color: white;  
+    padding-top: 10px;
+    font-size: 25px;
+    font-family: 'Cinzel', serif;
+}
+
+.nav-link:hover {
+    color: rgb(179, 244, 247);
+} 
+
+*section {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/*Seccion hero*/
+.carousel-inner img {
+    width:100%; height: 52em;
+  }
+.parrafo {
+    font-family: 'Quicksand', sans-serif;
+    padding-bottom: 320px;
+    text-shadow: 2px 2px 2px rgb(40, 43, 49);
+    font-size: 20px;
+}
+.titulo {
+    font-family: 'Cinzel', serif;
+    text-shadow: 2px 2px 2px rgb(56, 60, 70);
+    font-size: 50px;
+}
+/*Seccion tratamientos*/
+.seccion-title {
+    font-family: 'Alata', sans-serif;
+    font-size: 60px;
+    color:#1e1e35;
+}
+
+.texto-interno {
+    font-family: 'Quicksand', sans-serif;
+    padding: 50px 240px;
+}
+
+.tratamiento {
+ padding: 70px 10px 70px 10px;
+ height: 100%;
+ background-color: rgba(220, 232, 243, 0.705);
+} 
+
+.tratamiento .row {
+    background-color: transparent;
+    margin: 40px;
+}
+.tratamiento-titulo {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 8px 0;
+}
+.tratamiento .columna {
+    padding: 15px;
+    margin: 22px;
+    width: 400px;
+    border: 2px solid #8080804d;
+    background: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.2s ease-in;
+}
+.tratamiento .columna:hover {
+    color: rgb(255, 255, 255);
+    background-color: #37444d;
+}
+.boton-trtatimiento{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Seccion Clinica*/
+
+.clinica {
+    height: 100%;
+    width: 100%;
+    padding: 145px 0px;
+}
+
+.seccion-title2 {
+    font-family: 'Alata', sans-serif;
+    font-size: 50px;
+    color:#1e1e35;
+    padding: 25px 0px;
+}
+
+.img-clinica { 
+    height: 550px;
+    width: 600px;
+    margin: 5px 5px 5px 5px;
+}
+.card-text1 { 
+    color: rgb(11, 23, 44);
+    font-family: 'Quicksand', sans-serif;
+    text-align: justify;
+}
+/* Seccion Especialista*/
+.especialistas {
+    height: 100%;
+    padding: 75px 0px;
+    background-color: rgba(220, 232, 243, 0.705);
+}
+.card {
+    box-shadow: 10px 10px 20px #bbb3b3; 
+}
+
+.ficha {
+   width: 400px;
+   height: 400px;
+   align-items: center;
+   margin: 25px;
+   padding: 10px 40px 10px 40px;
+}
+
+.card-body{ 
+    background-color: rgb(71, 102, 129);
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+/* Seccion Testimonio*/
+.testimonios {
+    padding: 80px 40px 80px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonios .carousel {
+    max-width: 800px;
+}
+.carousel-item .carousel2 {
+    height: 600px;
+}
+
+.carousel-item .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container .testimonio-imagen {
+    height: 250px;
+    width: 250px;
+    margin: 10px 10px 20px 10px;
+}
+
+.testimonio-texto {
+    max-width: 70%;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.testimonio-info p {
+    margin-bottom: 0;
+}
+
+.testimonio-footer .paciente {
+    font-size: 1.2rem;
+}
+
+.testimonio-info .cargo {
+    font-size: 0.9rem;
+    color: #656060;
+}
+/* Contacto*/
+
+.contacto {
+    width: 100%;
+    height: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.form-contact { 
+    box-sizing: border-box;
+    padding: 50px 0px;
+    background-color: rgba(220, 232, 243, 0.705);
+}
+
+.img-contacto { 
+    height: 500px;
+    width: 500px;
+    margin: 25px 5px 25px 5px;
+}
+
+.formulario { 
+    height: 500px;
+    width: 500px;
+    margin: 25px 10px 25px 20px;
+}
+
+.form-contact input, textarea { 
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+    background-color: #fafafa;
+    border: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.form-contact textarea {
+    height: 180px;
+    margin-bottom: 30px;
+ }
+
+ .form-contact h6 {
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 10px;
+    padding: 30px 50px 5px 50px;
+    color: #142225;
+    text-align: center;
+    ;
+}
+
+.text-dir { 
+    font-family: 'Quicksand', sans-serif;
+    padding: 0px 50px 30px 50px;
+    text-align: center;
+}
+.direccion { 
+    padding: 15px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+/* Piede de Pagina*/
+footer {
+    min-height: 400px;
+}
+
+.footer-logo {
+    height: 150px;
+    width: 150px;
+    margin: 8px;
+    margin-bottom: 2px;
+}
+
+.footer-texto {
+    font-size: 1.5;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.iconos-redes-sociales a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales i {
+    color: white;
+    font-size: 1.5rem;
+    transition: all o.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover {
+ background-color: white;
+ border: 2px solid rgb(13, 110, 253);
+}
+
+.iconos-redes-sociales a:hover i {
+    color: rgb(5, 5, 5);
+}
+
+.derechos-de-autor {
+    font-size: 15px;
+    color: #c2c5c7;
+    padding: 20px;
+}
+/* Adaptable (Responsivo) */
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        display: none;
+    }
+}
