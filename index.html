@@ -1,0 +1,389 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!--Metadatos-->
+    <meta charset="utf-8">
+    <meta name="author" content="Maria Gonzalez">
+    <meta name="description" content="Trabajo practico HTML y CSS">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Titulo-->
+    <title>Dra Gonzalez Ortodoncista</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/img/logbracket.png">
+
+    <!-- Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  
+    <!--Estilo Letra-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alata&family=Bad+Script&family=Cinzel:wght@500&family=IBM+Plex+Mono:wght@300&family=Kaushan+Script&family=Quicksand&display=swap" rel="stylesheet">
+    <!--CSS-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!--
+    <link rel="stylesheet" href="assets/css/profecionales.css">
+    -->
+  </head>
+  <body>
+    <!--Barra de navegacion-->
+    <header>
+     <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbar-toggler" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand">
+            <img src="assets/img/logbracket.png" alt="Logo" width="48" height="" class="d-inline-block align-text-center">
+            Clinica de Ortodoncia González
+          </a>
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
+             <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#inicio">Inicio</a>
+             </li>
+              <li class="nav-item">
+             <a class="nav-link" href="#clinica">Nuestra Clinica</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#tratamientos" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Tratamientos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#tratamientos">Ortodoncia Invisible</a></li>
+                  <li><a class="dropdown-item" href="#tratamientos">Backets Metalicos</a></li>
+                  <li><a class="dropdown-item" href="#tratamientos">Backets Ocultos o linguales</a></li>
+                  <li><a class="dropdown-item" href="#tratamientos">Ortodoncia Infantil</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#tratamientos">Tecnologia // Radiologia</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#especialistas">Profecionales</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+ <!-- Seccion Hero-->
+  <section id="inicio">
+   <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner d-flex">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img class="img-fluid" src="assets/img/slider-trabajando.jpg" class="d-block w-100" alt="Clinica">
+        <div class="carousel-caption d-none d-md-block">
+          <h1 class="titulo">CLINICA DE ORTODONCIA GONZÁLEZ</h1>
+          <p class="parrafo">ALTAMENTE CALIFICADOS, CON FORMACION Y EXPERIENCIA<br>EN TODO TIPO DE TRATAMIENTOS DE ORTODONCIA</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img class="img-fluid" src="assets/img/clinica-dental-silla-dentista-otros-accesorios-concepto-dental_650851-5076.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h1 class="titulo">CLINICA DE ORTODONCIA GONZÁLEZ</h1>
+          <p class="parrafo">ALTAMENTE CCALIFICADOS, CON FORMACION Y EXPERIENCIA<br>EN TODO TIPO DE TRATAMIENTOS DE ORTODONCIA</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="img-fluid" src="assets/img/clinica foto.jpg" class="d-block w-100" alt="clinica">
+        <div class="carousel-caption d-none d-md-block">
+          <h1 class="titulo">CLINICA DE ORTODONCIA GONZÁLEZ</h1>
+          <p class="parrafo">ALTAMENTE CALIFICADOS, CON FORMACION Y EXPERIENCIA<br>EN TODO TIPO DE TRATAMIENTOS DE ORTODONCIA</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+ </section>
+ <!-- seccion Tratamientos-->
+ <section id="tratamientos" class="tratamiento seccion-clara"> 
+  <div class="container-fluid text-center">
+    <h2 class="seccion-title"> Nuestros <span style="color: #008fd5">Tratamiento</h2>
+    <p class="texto-interno">Los aparatos y mecanismos que se usan para estos tratamientos son muy variados, tanto en su diseño como material de fabricación. La elección del aparato de ortodoncia dependerá del caso puntual, teniendo en cuenta el problema a corregir así como los hábitos y preferencias del paciente. Seleccionar una categoría para ver más información.</p>
+   <div class="row">
+    <div class="columna col-12 col-md-3">
+      <img class="img-tratamiento" src="assets/img/invisible.png" alt="invisible">
+      <p class="tratamiento-titulo">Ortodoncia Invicible</p>
+      <p> Disfruta de tu sonrisa también durante el tratamiento gracias a la tecnología Invisalign, exclusiva en nuestra clinica de ortodoncia</p>
+      <button class="btn btn-primary" type="submit">Ver Mas</button>
+    </div>
+    <div class="columna col-12 col-md-3">
+      <img class="img-tratamiento" src="assets/img/brackets.png" alt="invisible">
+      <p class="tratamiento-titulo">Brackets</p>
+      <p>Consigue una sonrisa perfecta y una dentadura perfectamente alineada con nuestros tratamientos</p>
+      <button class="btn btn-primary" type="submit">Ver Mas</button>
+    </div>
+    <div class="columna col-12 col-md-3">
+      <img class="img-tratamiento" src="assets/img/niños.png" alt="invisible">
+      <p class="tratamiento-titulo">Para niños</p>
+      <p> Disfruta de tu sonrisa también durante el tratamiento gracias a la tecnología Invisalign, exclusiva en nuestra clinica de ortodoncia</p>
+      <button class="btn btn-primary" type="submit">Ver Mas</button>
+    </div>
+    <div class="columna col-12 col-md-3">
+      <img class="img-tratamiento" src="assets/img/tecnologia.png" alt="invisible">
+      <p class="tratamiento-titulo">Tecnología // Radiología</p>
+      <p> Disfruta de tu sonrisa también durante el tratamiento gracias a la tecnología Invisalign, exclusiva en nuestra clinica de ortodoncia</p>
+      <button class="btn btn-primary boton-tratamiento" type="submit">Ver Mas</button>
+    </div>
+  </div>
+  </div>
+ </section>
+  <!-- seccion de LA CLINICA -->
+  <section id="clinica" class="clinica">
+    <div class="container text-center">
+      <div class="row"> 
+      <div class="col-md-6">
+          <img class="img-responsive img-clinica" src="assets/img/Ortodoncia-Avila_029.2.jpg" alt="clinica-img">
+        </div> 
+      <div class="col-md-6">
+         <div class="col-md-6" id="formuChau"> 
+          <div class="formulario">
+          <div class="row">
+            <div class="card-body1">
+              <h2 class="seccion-title2 text-center">Clinica de Ortodoncia <span style="color: #008fd5">Dra Gonzalez Ma Eugenia</h2>
+              <p class="card-text1">  Somos una clínica de ortodoncia integral formada por un equipo de profesionales especialistas egresados de la Universidad de Argentina y Universidad de Concepción. Nuestra misión es restablecer la estética dentaria y facial, así como también la función y la salud de tus dientes y oclusión.<br>
+                <br> Una clínica que sólo hace ortodoncia, implica que sus profesionales tiene que estar a la última en técnicas y conocimientos. Los ortodoncistas de nuestro equipo ejercen su especialidad en exclusiva y están titulados en dicha área mediante un máster de postgrado de tres años de duración.</p>
+            </div>
+          </div>
+         </div>
+       </div>
+      </div>
+    </div>
+    </div> 
+  </section>
+ <!-- seccion de ESPECIALISTAS-->
+  <section id="especialistas" class="especialistas">
+    <div class="container-fluid text-center">
+      <h2 class="seccion-title">Profecionales <span style="color: #008fd5"> Calificados</h2>
+        <p class="texto-interno">En nuestra Clinica de Ortodoncia encontrarás un equipo de profesionales altamente cualificados, con formación y experiencia en todo tipo de tratamientos de Ortodoncia. Aquí podrás consultar los perfiles profesionales de nuestros miembros.</p>
+    <div class="row row-cols-1 row-cols-md-4 g-4 d-flex justify-content-center align-items-center">
+      <div class="col ficha">
+        <div class="card">
+          <img src="assets/img/retrato05-1024x1012.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Dra. Clara Tapia González</h5>
+            <p class="card-text">Especialista de Ortodoncia</p>
+          </div>
+        </div>
+      </div>
+      <div class="col ficha">
+        <div class="card">
+          <img src="assets/img/retrato03-1024x1012.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Dr. Ignacio Cardenas</h5>
+            <p class="card-text">Especialista de Ortodoncia</p>
+          </div>
+        </div>
+      </div>
+      <div class="col ficha">
+        <div class="card">
+          <img src="assets/img/retrato01-1024x1012.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Ana Tapia</h5>
+            <p class="card-text">Aux. de Clinica</p>
+          </div>
+        </div>
+      </div>
+      <div class="col ficha">
+        <div class="card">
+          <img src="assets/img/retrato02-1024x1012.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Beatriz Navarro</h5>
+            <p class="card-text">Higienista dental</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+  <!-- Seccion Testimonio-->
+  <section class="testimonios seccion-clara">
+<h2 class="seccion-title">Testimonios</h2>
+<h4 class="seccion-description" span style="color: #008fd5">Estos son algunos testimonios de nuestros pacientes</h4>
+<div id="testimonios-carousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <div class="carousel-inner corousel2">
+    <div class="carousel-item active">
+      <div class="container">
+      <img class="testimonio-imagen rounded-circle" src="assets/img/Diana Silva.jpg" alt="Diana Silva">
+      <p class="testimonio-texto">"No tengo más que palabras de agradecimiento. Hice el tratamiento invisalign y estoy más que satisfecha. Feliz es poco, he podido sonreír como nunca y para mí es algo super importante." </p>
+      <div class="testimonio-info">
+        <p class="paciente">Diana Silva</p>
+        <p class="cargo">Mis Universo</p>
+      </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="container">
+        <img class="testimonio-imagen rounded-circle" src="assets/img/testimonio marcos.jpg" alt="Marcos Cardenas">
+        <p class="testimonio-texto">No tengo más que palabras de agradecimiento. Hice el tratamiento invisalign y estoy más que satisfecha. Feliz es poco, he podido sonreír como nunca y para mí es algo super importante. </p>
+        <div class="testimonio-info">
+          <p class="paciente">Marcos Cardenas</p>
+          <p class="cargo">Mis Universo</p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="container">
+        <img class="testimonio-imagen rounded-circle" src="assets/img/testimonio2.jpg" alt="Marcos Cardenas">
+        <p class="testimonio-texto">No tengo más que palabras de agradecimiento. Hice el tratamiento invisalign y estoy más que satisfecha. Feliz es poco, he podido sonreír como nunca y para mí es algo super importante. </p>
+        <div class="testimonio-info">
+          <p class="paciente">Marcos Cardenas</p>
+          <p class="cargo">Mis Universo</p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="container">
+        <img class="testimonio-imagen rounded-circle" src="assets/img/testimonio luis.jpg" alt="Marcos Cardenas">
+        <p class="testimonio-texto">No tengo más que palabras de agradecimiento. Hice el tratamiento invisalign y estoy más que satisfecha. Feliz es poco, he podido sonreír como nunca y para mí es algo super importante. </p>
+        <div class="testimonio-info">
+          <p class="paciente">Marcos Cardenas</p>
+          <p class="cargo">Mis Universo</p>
+        </div>
+      </div>
+   </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Anterior</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Siguientes</span>
+  </button>
+</div>
+</section>
+   <!-- seccion de CONTACTO-->
+  <section id="contacto" class="form-contact">
+    <h2 class="seccion-title text-center">Contactanos</h2>
+    <div class="container">
+      <div class="row"> 
+      <div class="col-md-6">
+         <div class="container" id="gracias" style="display: none;">
+          <h5>Gracias, hemos recibido su consulta!</h5>
+          <p> A la brevedad nos contactaremos con vos </p> 
+         </div>
+         <div class="col-md-6" id="formuChau"> 
+          <div class="formulario">
+          <div class="row">
+            <div class="col-md-6"> 
+              <input type="texte" placeholder="Nombre" id="nombre">
+            </div>
+            <div class="col-md-6"> 
+              <input type="text" placeholder="Email" id="email">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6"> 
+              <input type="text" placeholder="Asunto" id="asunto">
+            </div>
+            <div class="col-md-6"> 
+              <input type="text" placeholder="Telefono" id="tel">
+            </div>
+          </div>
+         <div class="row"> 
+            <div class="col-md-12"> 
+              <textarea placeholder="Consulta" id="consulta"></textarea>
+            </div> 
+            <div class="col-md-12 text-center">
+              <button class="btn btn-primary" onclick="mandarMail()">Contactanos</button>
+            </div>
+          </div>
+         </div>
+       </div>
+      </div>
+      <div class="col-md-6">
+        <img class="img-responsive img-contacto" src="assets/img/contactoIMG.jpg" alt="contacto-img">
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-md-12 d-flex">
+        <ul class="d-flex justify-content-center align-items-center">
+          <li> 
+            <a> 
+              <h6> 
+                <i class="bi bi-geo-alt-fill"></i>BELGRANO
+              </h6>
+              <p class="text-dir">Vulta de Obligado 1947 8A, CABA
+                <br>
+                11 2879 7890
+              </p>
+            </a>
+            <a></a>
+          </li>
+          <li> 
+            <a></a>
+            <a> 
+              <h6> 
+                <i class="bi bi-geo-alt-fill"></i>PALERMO
+              </h6>
+              <p class="text-dir">Vulta de Obligado 1947 8A, CABA
+                <br>
+                11 2879 7890
+              </p>
+            </a>
+            <a></a>
+          </li>
+          <li> 
+            <a href="tel:+5491153702277"> 
+              <h6><i class="bi bi-telephone-fill"></i>TELEFONOS</h6>
+              <p class="text-dir">Belgrano: 5890 2990
+                <br>
+                Palermo: 2879 7890
+              </p>
+            </a>
+          </li>
+          <li> 
+            <a href="mailto:odmariu09@gmail.com"> 
+              <h6> 
+                <i class="bi bi-envelope-at-fill"></i>EMAIL
+              </h6>
+              <p class="text-dir">envianos tu mensaje
+                <br>
+                odmariu09@gmail.com
+              </p>
+            </a>
+          </li>
+        </ul>
+      </div>
+      </div>
+    </div>
+    </div> 
+  </section>
+     <!--Pie de Pagina FOOTER-->
+   <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+     <img class="footer-logo" src="assets/img/LOGO1.png" alt="Logo">
+      <p class="footer-texto text-center">Clinica de Ortodoncia Dra Ma Gonzalez<br>Codo a codo JAVA-FRONT END</p>
+       <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://twitter" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="https://intagram" target="_blank" rel="noopener noreferrer">
+         <i class="bi bi-instagram"></i>
+        </a>
+        <a href="https://twitter" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-facebook"></i>
+        </a>
+        <a href="https://bi-whatsapp" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-whatsapp"></i>
+        </a>
+        <a href="mailo:odmariu09@gmail.com" target="_blank" rel="noopener norenoopnoopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+    <div class="derechos-de-autor"> Creado por Gonzalez Rangel Mª Eugenia - Wed Developer(2023) &#169;</div>
+   </footer>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
