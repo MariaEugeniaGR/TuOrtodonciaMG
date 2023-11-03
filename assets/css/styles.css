@@ -1,17 +1,15 @@
 .seccion-clara {
-    color: #1b1b32;
+    color: #242447;
     background-color: rgb(255, 255, 255);
 }
 
 .seccion-oscura {
     color: white;
-    background-color:#1b1b32}
+    background-color:#171720}
 
 /*Barra de Navegacion*/
-
 .navbar {
-    background-color: rgb(101, 154, 201);
-    padding: 0;
+    background-color: rgb(59, 61, 65);
 } 
 
 .navbar-collapse {
@@ -25,13 +23,14 @@
 
 .navbar-brand {
     color: white;  
-    padding-top: 10px;
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'Cinzel', serif;
+    padding: 0;
+    margin: 0;
 }
 
 .nav-link:hover {
-    color: rgb(179, 244, 247);
+    color: rgb(106, 165, 199);
 } 
 
 *section {
@@ -265,20 +264,20 @@
 }
 /* Piede de Pagina*/
 footer {
-    min-height: 400px;
+    min-height: 30px;
 }
 
 .footer-logo {
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     margin: 8px;
     margin-bottom: 2px;
 }
 
 .footer-texto {
-    font-size: 1.5;
-    padding: 20px;
-    margin-bottom: 30px;
+    padding: 0;
+     font-size: 1.5;
+     margin-bottom: 10px;
 }
 
 .iconos-redes-sociales a {
